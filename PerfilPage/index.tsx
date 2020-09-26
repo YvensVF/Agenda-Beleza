@@ -17,39 +17,29 @@ function PerfilPage() {
 
         <View style={styles.perfil}>
 
-                    <View style = {styles.nameView}>
-                         <Text style = {styles.viewName}>Nome:</Text>
-                         <Text style = {styles.nome}>Caio Gabriel</Text>
+                    <View style = {styles.inview}>
+                         <Text style = {styles.nameView}>Nome:</Text>
+                         <Text style = {styles.informationView}>Caio Gabriel</Text>
                     </View>
 
-                    <View style = {styles.cpfView}>
-                        <Text style = {styles.viewCpf}>CPF:</Text>
-                        <Text style = {styles.cpf}>000.000.000-00</Text>
+                    <View style = {styles.inview}>
+                        <Text style = {styles.nameView}>CPF:</Text>
+                        <Text style = {styles.informationView}>000.000.000-00</Text>
                     </View>
 
-                    <View style = {styles.dateView}>
-                        <Text style = {styles.viewDate}>Data de Nascimento:</Text>
-                        <Text style = {styles.date}>28/02/2003</Text>
+                    <View style = {styles.inview}>
+                        <Text style = {styles.nameView}>Data de Nascimento:</Text>
+                        <Text style = {styles.informationView}>28/02/2003</Text>
                     </View>
 
-                    <View>
+                    <View style = {styles.input}>
                         <Text style = {styles.yeahInput}>Senha:</Text>
-                        <Text style =  {styles.pass}>******</Text>
-                        <TextInput 
-                            style = {styles.input}
-                            autoCorrect={false}
-                            onChange={()=> {}}
-                        />
+                        <TextInput style =  {styles.pass}>******</TextInput>
                     </View>
 
-                    <View>
+                    <View style = {styles.input}>
                         <Text style = {styles.yeahInput}>Numero:</Text>
-                        <Text style = {styles.pass}>(33)3333333</Text>
-                        <TextInput
-                            style = {styles.input}
-                            autoCorrect={false}
-                            onChange={()=>{}}
-                        />
+                        <TextInput style = {styles.pass}>(33)3333333</TextInput>
                     </View>
 
             <TouchableOpacity style = {styles.btn}>

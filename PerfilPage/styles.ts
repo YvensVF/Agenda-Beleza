@@ -27,11 +27,13 @@ const styles = StyleSheet.create ({
     width: '90%',
    },
 
+   inview: {
+    flex: 1,
+    display: 'flex',
+    alignItems:"center"
+   },
+
    nameView: {
-    flex:1,
-   },
-
-   viewName: {
     textAlign: 'left',
     width:'90%',
     height: 45,
@@ -40,71 +42,9 @@ const styles = StyleSheet.create ({
     fontSize: 17,
     borderRadius: 7,
    },
-   nome: {
-    alignContent: 'flex-end',
+
+   informationView: {
     backgroundColor: '#f2f2f2',
-    width:'90%',
-    height: 45,
-    marginBottom:15,
-    color: '#a9a9a9',
-    fontSize: 17,
-    borderRadius: 7,
-    borderColor:'#fff000',
-    borderStyle: 'solid',
-    borderWidth: 1,
-    shadowColor: '#f7b733',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 1,
-    shadowRadius: 3,
-   },
-
-   cpfView: {
-    flex:1,
-   },
-
-   viewCpf: {
-    textAlign: 'left',
-    width:'90%',
-    height: 45,
-    marginBottom:-15,
-    color: '#000',
-    fontSize: 17,
-    borderRadius: 7,
-   },
-
-   cpf: {
-    backgroundColor: '#fff',
-    width:'90%',
-    height: 45,
-    marginBottom:15,
-    color: '#a9a9a9',
-    fontSize: 17,
-    borderRadius: 7,
-    borderColor:'#fff000',
-    borderStyle: 'solid',
-    borderWidth: 1,
-    shadowColor: '#f7b733',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 1,
-    shadowRadius: 3,
-   },
-
-   dateView: {
-    flex:1,
-   },
-
-   viewDate: {
-    textAlign: 'left',
-    width:'90%',
-    height: 45,
-    marginBottom:-15,
-    color: '#000',
-    fontSize: 17,
-    borderRadius: 7,
-   },
-
-   date: {
-    backgroundColor: '#fff',
     width:'90%',
     height: 45,
     marginBottom:15,
@@ -122,6 +62,8 @@ const styles = StyleSheet.create ({
 
    input: {
     flex:1,
+    display: "flex",
+    alignItems: "center",
    },
 
    yeahInput: {
@@ -153,6 +95,8 @@ const styles = StyleSheet.create ({
 
    btn: {
     flex:1,
+    display: 'flex',
+    alignItems: 'center'
    },
 
    btnText: {
@@ -168,7 +112,6 @@ const styles = StyleSheet.create ({
     borderStyle: 'solid',
     borderWidth: 1,
    }
-
 
 })
 export default styles
