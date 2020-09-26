@@ -34,12 +34,22 @@ function PerfilPage() {
 
                     <View style = {styles.input}>
                         <Text style = {styles.yeahInput}>Senha:</Text>
-                        <TextInput style =  {styles.pass}>******</TextInput>
+                        <TextInput
+                         style = {styles.pass}
+                         placeholder = "********"
+                         placeholderTextColor = "black"
+                         autoCorrect={false}
+                         />
                     </View>
 
                     <View style = {styles.input}>
                         <Text style = {styles.yeahInput}>Numero:</Text>
-                        <TextInput style = {styles.pass}>(33)3333333</TextInput>
+                        <TextInput
+                         style = {styles.pass}
+                         placeholder = "(33) 33333333"
+                         placeholderTextColor = "black"
+                         autoCorrect={false}
+                         />
                     </View>
 
             <TouchableOpacity style = {styles.btn}>
