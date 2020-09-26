@@ -39,6 +39,7 @@ function PerfilPage() {
                          placeholder = "********"
                          placeholderTextColor = "black"
                          autoCorrect={false}
+                         onChange={()=> {}}
                          />
                     </View>
 
@@ -49,6 +50,7 @@ function PerfilPage() {
                          placeholder = "(33) 33333333"
                          placeholderTextColor = "black"
                          autoCorrect={false}
+                         onChange={()=> {}}
                          />
                     </View>
 
