@@ -19,27 +19,45 @@ function PerfilPage() {
 
                     <View style = {styles.inview}>
                          <Text style = {styles.nameView}>Nome:</Text>
-                         <Text style = {styles.informationView}>Caio Gabriel</Text>
+                         <TextInput
+                         style = {styles.pass}
+                         value = {'Caio Gabriel'}
+                         autoCorrect={false}
+                         onChange={()=> {}}
+                         editable={false}
+                         />
                     </View>
 
                     <View style = {styles.inview}>
                         <Text style = {styles.nameView}>CPF:</Text>
-                        <Text style = {styles.informationView}>000.000.000-00</Text>
+                        <TextInput
+                         style = {styles.pass}
+                         value = {'000.000.000-00'}
+                         autoCorrect={false}
+                         onChange={()=> {}}
+                         editable={false}
+                         />
                     </View>
 
                     <View style = {styles.inview}>
                         <Text style = {styles.nameView}>Data de Nascimento:</Text>
-                        <Text style = {styles.informationView}>28/02/2003</Text>
+                        <TextInput
+                         style = {styles.pass}
+                         value = {'28/02/2003'}
+                         autoCorrect={false}
+                         onChange={()=> {}}
+                         editable={false}
+                         />
                     </View>
 
                     <View style = {styles.input}>
                         <Text style = {styles.yeahInput}>Senha:</Text>
                         <TextInput
                          style = {styles.pass}
-                         placeholder = "********"
-                         placeholderTextColor = "black"
+                         value = {'*********'}
                          autoCorrect={false}
                          onChange={()=> {}}
+                         editable={false}
                          />
                     </View>
 
@@ -47,18 +65,21 @@ function PerfilPage() {
                         <Text style = {styles.yeahInput}>Numero:</Text>
                         <TextInput
                          style = {styles.pass}
-                         placeholder = "(33) 33333333"
-                         placeholderTextColor = "black"
+                         value = {'(85) 3333333333'}
                          autoCorrect={false}
                          onChange={()=> {}}
+                         editable={false}
                          />
                     </View>
 
             <TouchableOpacity style = {styles.btn}>
-                <Text style = {styles.btnText}>Sair</Text>
+                <Text style = {styles.btnTextConfirm}>Confirmar</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style = {styles.btn}>
+                <Text style = {styles.btnText}>Deslogar</Text>
             </TouchableOpacity>
         </View>
-
     </KeyboardAvoidingView>
 )
 }
