@@ -57,7 +57,6 @@ function PerfilPage() {
                          value = {'*********'}
                          autoCorrect={false}
                          onChange={()=> {}}
-                         editable={false}
                          />
                     </View>
 
@@ -68,7 +67,6 @@ function PerfilPage() {
                          value = {'(85) 3333333333'}
                          autoCorrect={false}
                          onChange={()=> {}}
-                         editable={false}
                          />
                     </View>
 
