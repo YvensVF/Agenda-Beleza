@@ -2,19 +2,19 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create ({
     container: {
-        flex: 13,
+        flex: 1,
         backgroundColor: '#ffdb00',
-        alignItems: 'center',
-        alignContent: 'center',
+        alignItems: 'center'
     },
 
    logo: {
     marginTop: '5%',
+    alignItems: 'center'
    },
 
    imageLogo: {
     width: 300,
-    height: 70
+    height: 70,
    },
 
    logoPerfil: {
@@ -25,16 +25,14 @@ const styles = StyleSheet.create ({
    perfil: {
     flex: 1,
     width: '90%',
+    
    },
 
    inview: {
-    flex: 1,
-    display: 'flex',
     alignItems:"center"
    },
 
    nameView: {
-    textAlign: 'left',
     width:'90%',
     height: 45,
     marginBottom:-15,
@@ -62,7 +60,6 @@ const styles = StyleSheet.create ({
 
    input: {
     flex:1,
-    display: "flex",
     alignItems: "center",
    },
 
@@ -86,7 +83,7 @@ const styles = StyleSheet.create ({
     borderRadius: 7,
     borderColor:'#fff000',
     borderStyle: 'solid',
-    borderWidth: 1,
+    borderWidth: 5,
     shadowColor: '#f7b733',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 1,
@@ -95,7 +92,6 @@ const styles = StyleSheet.create ({
 
    btn: {
     flex:1,
-    display: 'flex',
     alignItems: 'center'
    },
 
