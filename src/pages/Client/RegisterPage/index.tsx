@@ -82,15 +82,16 @@ function RegisterPage(){
                 <TouchableOpacity style = {styles.btn} onPress={handleSubmitRegister}>
                     <Text style = {styles.btnText}>Cadastrar</Text>
                 </TouchableOpacity>
-            </View>
 
-            <View style = {styles.logo}> 
-                <Image style = {styles.imageLogo} source={Logo}/>
-                <Text style = {styles.supportText}>Para caso de duvidas: suporte@gmail.com</Text>
-            </View>
+                <View style = {styles.logo}> 
+                    <Image style = {styles.imageLogo} source={Logo}/>
+                    <Text style = {styles.supportText}>Para caso de duvidas: agendabeleza@gmail.com</Text>
+                </View>
 
-            <View style = {styles.logoSalao}> 
-                <Image style = {styles.imageSalao} source={salaoImage}/>
+                <View style = {styles.logoSalao}> 
+                    <Image style = {styles.imageSalao} source={salaoImage}/>
+                </View>
+
             </View>
         </KeyboardAvoidingView>
     )

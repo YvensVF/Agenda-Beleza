@@ -49,7 +49,7 @@ function InitialPage(){
 
             <ScrollView style={styles.sview}>
             {data.map((c: Company) => (
-                <RectButton style={styles.saloes} onPress={() => {handleNavigatetoCompanyPage(c.id)}}>
+                <RectButton style={styles.saloes} key={c.id} onPress={() => {handleNavigatetoCompanyPage(c.id)}}>
                     <Text style={styles.saloonTitle}>{c.name}</Text>
                     <Text style={styles.saloonText}>{c.endereco}</Text>
                     <Text style={styles.saloonText}>CNPJ: {c.cnpj}</Text>

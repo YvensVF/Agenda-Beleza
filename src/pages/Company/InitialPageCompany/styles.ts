@@ -2,10 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container:{
-        flex: 1,
+        flex:1,
         backgroundColor: '#ffdb00',
-        alignItems: 'center'
-
+        alignItems: 'center',
     },
     logo:{
         marginTop: '10%'
@@ -23,9 +22,21 @@ const styles = StyleSheet.create({
         height: '5%',
         marginTop: 30,
     },
+    boxTextSecondary:{
+        backgroundColor: '#fff',
+        marginTop: 20,
+        width: '80%',
+        height: '5%',
+    },
+    input:{
+        backgroundColor: '#fff',
+        color: '#222',
+        fontSize: 17,
+        marginTop: 10
+    },
     btn:{
         backgroundColor: '#00c41a',
-        marginTop: 20,
+        marginTop: 50,
         borderRadius: 5,
         width: '50%',
         height: '5%',

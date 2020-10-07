@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     },
 
     logo: {
-        marginTop: '50%',
         alignItems: 'center',
+        marginTop: '6%'
     },
 
     
@@ -72,8 +72,7 @@ const styles = StyleSheet.create({
     imageSalao: {
         width: 50,
         height: 60,
-        marginBottom: 10,
-        marginTop: 50
+        marginTop: 37,
     },
 
 

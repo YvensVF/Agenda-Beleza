@@ -27,7 +27,7 @@ function PerfilPageCompany() {
     }, [])
 
     async function load(){
-        const id = await AsyncStorage.getItem("token");
+        const id = await AsyncStorage.getItem("token_company");
         const response = await api.get(`/company/${id}`)
         const {data} = response;
         setId(data.id);
@@ -59,7 +59,7 @@ function PerfilPageCompany() {
     }
 
     async function exit(){
-        await AsyncStorage.removeItem("token");
+        await AsyncStorage.removeItem("token_company");
         navigate("LandingPage")
     }
 

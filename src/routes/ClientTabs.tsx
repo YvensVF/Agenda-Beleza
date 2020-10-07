@@ -27,6 +27,7 @@ function ClientTabs(){
                     tabBarLabel: 'Página Inicial',
                 }}    
             />
+
             <Tab.Screen 
                 name="Schedule" 
                 component={SchedulePage} 
@@ -34,6 +35,7 @@ function ClientTabs(){
                     tabBarLabel: 'Agenda'
                 }}    
             />
+
             <Tab.Screen 
                 name="Perfil" 
                 component={PerfilPage}

@@ -24,7 +24,7 @@ function LoginCompany(){
         
         const id = response.data.id;
         if(response.data.id){
-            await AsyncStorage.setItem("token", JSON.stringify(id))
+            await AsyncStorage.setItem("token_company", JSON.stringify(id))
             navigate("CompanyTabs")
             Keyboard.dismiss();
         }else{
