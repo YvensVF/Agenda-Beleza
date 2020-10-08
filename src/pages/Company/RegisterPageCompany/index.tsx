@@ -6,6 +6,7 @@ import Logo from '../../../assets/images/logo.png'
 import salaoImage from '../../../assets/images/salaoImageLittle.png'
 import api from '../../../services/api';
 import styles from './styles';
+import { ScrollView } from 'react-native-gesture-handler';
 
 function RegisterPageCompany(){
 
@@ -41,7 +42,9 @@ function RegisterPageCompany(){
 
             <Text style = {styles.firstText}>Cadastre seu Salão</Text>
 
-            <View style={styles.Registrar}>
+            <ScrollView style={styles.Registrar}>
+
+                <View style={styles.allInput}>
                 <TextInput
                     style = {styles.input}
                     placeholder = "Nome do Salão"
@@ -88,6 +91,7 @@ function RegisterPageCompany(){
                 <TouchableOpacity style = {styles.btn} onPress={register}>
                     <Text style = {styles.btnText}>Cadastrar</Text>
                 </TouchableOpacity>
+                </View>
 
                 <View style = {styles.logo}> 
                     <Image style = {styles.imageLogo} source={Logo}/>
@@ -98,7 +102,7 @@ function RegisterPageCompany(){
                     <Image style = {styles.imageSalao} source={salaoImage}/>
                 </View>
 
-            </View>
+            </ScrollView>
         </KeyboardAvoidingView>
     )
 }

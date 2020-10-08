@@ -7,6 +7,7 @@ import Logo from '../../../assets/images/logo.png';
 import styles from './styles';
 import {useNavigation} from '@react-navigation/native';
 import salaoImage from '../../../assets/images/salaoImageLittle.png'
+import { ScrollView } from 'react-native-gesture-handler';
 
 function RegisterPage(){
     const {navigate} = useNavigation();
@@ -42,7 +43,9 @@ function RegisterPage(){
 
             <Text style = {styles.firstText}>Se cadastre para conferir os salões!</Text>
 
-            <View style={styles.Registrar}>
+            <ScrollView style={styles.Registrar}>
+
+                <View style={styles.allInput}>
                 <TextInput
                     style = {styles.input}
                     placeholder = "Nome Completo"
@@ -82,6 +85,8 @@ function RegisterPage(){
                 <TouchableOpacity style = {styles.btn} onPress={handleSubmitRegister}>
                     <Text style = {styles.btnText}>Cadastrar</Text>
                 </TouchableOpacity>
+                </View>
+             
 
                 <View style = {styles.logo}> 
                     <Image style = {styles.imageLogo} source={Logo}/>
@@ -92,7 +97,7 @@ function RegisterPage(){
                     <Image style = {styles.imageSalao} source={salaoImage}/>
                 </View>
 
-            </View>
+            </ScrollView>
         </KeyboardAvoidingView>
     )
 }
