@@ -5,6 +5,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 import {View, Text, TextInput, TouchableOpacity, KeyboardAvoidingView, Image, Keyboard, Alert} from 'react-native';
 
+import rodapeimg from '../../../assets/images/salaoImageLittle.png'
 import styles from './styles';
 
 
@@ -70,6 +71,10 @@ function LoginPage(){
                     <TouchableOpacity onPress={handleNavigatetoResetPage}>
                         <Text>Esqueceu a senha? Clique aqui!</Text>
                     </TouchableOpacity>
+
+                    <View style={styles.viewImageSalao}>
+                            <Image source={rodapeimg} style={styles.imageSalao}/>
+                    </View>
                 </View>
             </View>
 

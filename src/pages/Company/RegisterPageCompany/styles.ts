@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
 
     imageSalao: {
         width: 50,
-        height: 60,
+        height: 63,
         marginTop: 37,
     },
 

@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
 
     logo:{
         marginTop: '18%',
+        alignItems: 'center'
     },
 
     text:{
@@ -50,6 +51,17 @@ const styles = StyleSheet.create({
     btnText: {
         color: '#fff',
         fontSize: 18,
+    },
+
+    viewImageSalao: {
+        alignItems:'center'
+    },
+
+    imageSalao:{
+        width: 60,
+        height: 75,
+        marginBottom: 20,
+        marginTop: 50,
     }
 
 

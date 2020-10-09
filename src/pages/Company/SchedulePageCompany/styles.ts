@@ -43,6 +43,13 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
     },
+
+    btn:{
+        backgroundColor: '#b82601',
+        padding: 5,
+        borderRadius: 7,
+        marginTop: 10,
+    }
 });
 
 export default styles

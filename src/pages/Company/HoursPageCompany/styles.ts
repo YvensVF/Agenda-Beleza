@@ -46,12 +46,25 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontWeight: 'bold',
         textAlign: 'center',
+        marginBottom: 10,
     },
 
     saloonText: {
         color: '#fff',  
         textAlign: 'center',
-    }
-})
+        marginBottom: 10
+    },
+    
+    buttonText:{
+        color: '#fff',  
+        textAlign: 'center',
+    },
 
+    buttonDel: {
+        backgroundColor: '#b82601',
+        padding: 5,
+        borderRadius: 7,
+    },
+
+})
 export default styles;

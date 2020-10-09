@@ -5,7 +5,7 @@ import {View, Text, TextInput, TouchableOpacity, KeyboardAvoidingView, Image, Al
 
 import styles from './styles';
 
-
+import rodapeimg from '../../../assets/images/salaoImageLittle.png'
 import logoImg from '../../../assets/images/logo.png'
 import api from '../../../services/api';
 import AsyncStorage from '@react-native-community/async-storage';
@@ -71,6 +71,11 @@ function LoginCompany(){
                         <Text>Esqueceu a senha? Clique aqui!</Text>
                     </TouchableOpacity>
                 </View>
+                
+                <View style={styles.viewImageSalao}>
+                            <Image source={rodapeimg} style={styles.imageSalao}/>
+                </View>
+
             </View>
 
         </KeyboardAvoidingView>

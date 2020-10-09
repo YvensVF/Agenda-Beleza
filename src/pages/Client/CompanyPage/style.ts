@@ -5,7 +5,11 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#ffdb00'
+        backgroundColor: '#ffdb00',
+    },
+
+    allInput: {
+        alignItems: 'center'
     },
 
     logoView: {
@@ -30,22 +34,29 @@ const styles = StyleSheet.create({
     },
 
     scView:{
-        flex: 1,
-        width: '80%',
-        marginBottom: 10,
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        borderColor: '#000',
-        borderWidth: 5
+        width: '95%',
+        marginTop: '18%',
+        marginBottom: 50,
     },
 
-
-    picker: {
+    pickerView: {
         textAlign: 'center',
-        borderWidth: 1,
+        borderWidth: 5,
+        backgroundColor: '#fff',
         borderColor: '#000',
-        borderRadius: 5,
-        marginBottom: 3,
+        borderRadius: 10,
+        marginTop: 10
+    },
+
+    viewImageSalao:{
+        alignItems: 'center',
+    },
+
+    imageSalao: {
+        width: 60,
+        height: 70,
+        marginBottom: 20,
+        marginTop: 50,
     },
 
     button:{
@@ -53,7 +64,6 @@ const styles = StyleSheet.create({
         padding: 10,
         borderRadius: 5,
         backgroundColor: '#00c41a',
-        marginTop: 5,
         marginBottom: 5,
     },
 
